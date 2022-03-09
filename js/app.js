@@ -4,6 +4,10 @@
 })();
 
 $(document).ready(function () {
+  $(".circle").click(function () {
+    $(this).toggleClass("circleDark");
+    $("body").toggleClass("dark");
+  });
   $(".container:nth-child(1) .col-xl-3:nth-child(1) span").click(function () {
     $(".container:nth-child(1) .col-xl-3:nth-child(1) span").css(
       "display",
