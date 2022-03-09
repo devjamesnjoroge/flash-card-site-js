@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* git commit -m "ft: add transition on page" */
+
+.container-fluid {
+  clip-path: polygon(0 0%, 100% 0, 100% 0, 0 0);
+  transition-timing-function: 1s ease-in;
+  transition-delay: 0.4s;
+  transition-duration: 1s;
+}
 
 .col-xl-3 {
   height: 50vh;

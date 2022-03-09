@@ -1,3 +1,8 @@
+(function () {
+  var fluid = document.querySelector(".container-fluid");
+  fluid.style.clipPath = "polygon(0 100%, 100% 100%, 100% 0, 0 0)";
+})();
+
 $(document).ready(function () {
   $(".container:nth-child(1) .col-xl-3:nth-child(1) span").click(function () {
     $(".container:nth-child(1) .col-xl-3:nth-child(1) span").css(
