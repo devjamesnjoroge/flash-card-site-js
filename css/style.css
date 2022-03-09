@@ -27,7 +27,7 @@ body {
 }
 
 .rectangle {
-  width: 15rem;
+  width: 15vw;
   height: 6rem;
   background-color: #381717;
   cursor: pointer;
@@ -44,7 +44,7 @@ body {
 }
 
 .circleDark {
-  transform: translateX(8.8rem);
+  transform: translateX(7.8vw);
   height: 5rem;
   width: 5rem;
   background-color: blue;
