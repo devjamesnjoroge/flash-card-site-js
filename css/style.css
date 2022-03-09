@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.col-xl-3 {
+  height: 50vh;
+  background-color: rgb(111, 12, 111);
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.col-xl-3 span {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.col-xl-3 p {
+  font-size: 16px;
+  display: none;
+}
